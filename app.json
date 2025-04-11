@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Safety App",
+    "slug": "safety-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safetyapp"
+    },
+    "android": {
+      "package": "com.safetyapp"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Safety App to use your location."
+        }
+      ]
+    ]
+  }
+} 
